@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/top-users",
+      "handler": "top-users.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/top-users",
+      "handler": "top-users.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/top-users",
+      "handler": "top-users.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricing",
+  "info": {
+    "name": "Subscription",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "plan": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "top_users",
+  "info": {
+    "name": "Top Users"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Desription": {
+      "type": "richtext"
+    }
+  }
+}
