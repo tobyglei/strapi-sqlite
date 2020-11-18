@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "sqlite3": "4.1.1",
     "strapi": "3.2.5",
     "strapi-admin": "3.2.5",
     "strapi-utils": "3.2.5",
@@ -20,18 +21,13 @@
     "strapi-plugin-email": "3.2.5",
     "strapi-plugin-upload": "3.2.5",
     "strapi-connector-bookshelf": "3.2.5",
-    "knex": "<0.20.0",
-    "sqlite3": "4.1.1"
+    "knex": "<0.20.0"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
     "uuid": "0b27e8b4-cf76-464a-a3e4-800df9de49d9"
-  },
-  "engines": {
-    "node": ">=10.0.0",
-    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }
